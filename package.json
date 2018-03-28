@@ -1,0 +1,37 @@
+{
+  "name": "tested-components",
+  "version": "0.0.0",
+  "description": "Browser integration testing utils for styled-components",
+  "main": "index.js",
+  "repository": "https://github.com/jamiebuilds/tested-components",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "keywords": [
+    "integration",
+    "browser",
+    "unit",
+    "testing",
+    "styled-components",
+    "css-in-js"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava test.js"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "browser-env": "^3.2.5",
+    "flow-bin": "^0.68.0",
+    "raf": "^3.4.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "^3.2.3"
+  },
+  "ava": {
+    "require": [
+      "./test-setup.js"
+    ]
+  }
+}
