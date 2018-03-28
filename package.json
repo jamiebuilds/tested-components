@@ -1,6 +1,6 @@
 {
   "name": "tested-components",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Browser integration testing utils for styled-components",
   "main": "index.js",
   "repository": "https://github.com/jamiebuilds/tested-components",
